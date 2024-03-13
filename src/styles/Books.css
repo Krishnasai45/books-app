@@ -1,0 +1,43 @@
+.conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; 
+    overflow-y: auto; 
+    max-height: 80vh; 
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .books-body {
+    flex-grow: 1; 
+  }
+  
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .load-more {
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+  }
+
+  .heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px;
+  }
+  
